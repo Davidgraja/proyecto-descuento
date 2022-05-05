@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./descuento.css">
+    <title>Descuentos</title>
+</head>
+<body>
+    <section class="contenedor">
+        <h1>Shopping Discount</h1>
+        <form class="contenedor-descuento">
+            <label>
+                <span class="pago" ></span>
+               <input type="number" id="pago">
+            </label>
+            <div class="descuento">
+                <span class="porciento"></span>
+                <input list="cupones" class="cupones" >
+                <datalist id="cupones">
+                    <option value="Buen Oulet">Buen Oulet</option>
+                    <option value="Flow Mint">Flow Mint</option>
+                    <option value="Card Mart">Card Mart</option>
+                </datalist>
+            </div>
+
+            <div class="resultado" id="resultado">
+                <span> El valor final a pagar es </span>
+            </div>
+
+            <input type="button" value="Calcular" class="button-calcular botones"   id="button-calcular" onclick="calcular">
+            <button class="botones button-cupon" id="añadir-cupon" type="button">Añadir Cupon</button>
+            <div class="añadir-cupon resultado" id="Cupon">
+                <!-- <span>ingrese el nombre del cupon </span>
+                <input type="text" id="cuponNuevo" >
+                <span>ingrese el % de descuento</span>
+                <input type="number" id="valor-cupon"> -->
+                <!-- <button type="button" name="button">ok</button> -->
+            </div>
+
+        </form>
+    </section>
+
+    <script src="./descuentos.js"></script>
+</body>
+</html>

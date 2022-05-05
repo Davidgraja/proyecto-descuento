@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5% ;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    background-color: #eee;
+    height:100vh ;
+}
+
+.contenedor{
+    width: 90%;
+    background-color: white;
+    height: auto;
+    margin: 0 auto;
+    min-width: 320px;
+    padding: 20px;
+    border-radius:26px ;
+    max-width: 600px;
+
+}
+
+.contenedor h1{
+    text-align: center;
+    font-size: 2.6rem;
+    color: rgba(218, 67, 40, 0.623);
+    padding: 16px;
+}
+
+.contenedor-descuento{
+    display: flex;
+    flex-direction: column;
+    min-width: 250px;
+
+}
+
+.contenedor-descuento label{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.contenedor-descuento label span{
+    margin-right: 5px;
+}
+.contenedor-descuento label input{
+    width: 90%;
+    border: none;
+    outline: none;
+    text-align: end;
+    object-fit: contain;
+    text-align: center;
+}
+
+.resultado{
+    margin:20px 0;
+
+}
+
+.resultado span{
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #efefef;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgba(218, 67, 40, 0.623) ;
+    color: rgba(218, 67, 40, 0.623);
+}
+
+.resultado p{
+    height:35px;
+    border: 2px solid  rgba(0, 0, 0, 0.534);
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.4rem ;
+    padding: 8px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.4);
+}
+.pago{
+    width: 30px;
+    height: 25px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1611/1611179.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.descuento{
+    display: flex;
+    justify-content: end;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.descuento .cupones{
+    width: 90%;
+    border: none;
+    text-align: center;
+
+}
+
+.porciento{
+    width: 30px;
+    height: 25px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/548/592/non_2x/discount-line-black-icon-vector.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 4px;
+}
+
+.botones{
+    padding: 6px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.button-calcular{
+    background-color: rgba(218, 67, 40, 0.623);
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+
+/*Boton cupon*/
+.button-cupon{
+    background-color: rgba(218, 67, 40, 0.623);
+    color: white;
+    border: none;
+    padding: 8px;
+}
+
+.añadir-cupon span{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: #efefef;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid rgba(218, 67, 40, 0.623);
+    color: rgba(218, 67, 40, 0.623);
+}
+
+.añadir-cupon{
+    margin: 10px 0;
+}
+
+.añadir-cupon input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 0;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    outline: none;
+    text-align: center;
+}
+
+.añadir-cupon button{
+    width: 100%;
+    background-color:#282626ad;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px
+
+}
